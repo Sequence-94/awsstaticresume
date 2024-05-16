@@ -40,3 +40,24 @@ This was optional but it seems if I do not indicate the root object or file name
 
 Result: 
 ![Screen Shot 2024-05-16 at 14 42](https://github.com/Sequence-94/awsstaticresume/assets/53806574/0996b5f4-7847-4dd7-bb4d-87da8c9038d4)
+
+Improvement:
+Although the site is showing up perfectly the url is still predefined by amazon and because of that SSL/TLS certificates are provided by amazon. I have Purcahsed a Domain Name in order to customise the url to make it userfriendly. 
+
+Error:
+![Screen Shot 2024-05-16 at 17 39](https://github.com/Sequence-94/awsstaticresume/assets/53806574/b6dfffae-896a-4485-a026-ab922ebd52b9)
+
+With this new custome Domain Name AWS does not provide a SSL/TLS certificate so I have to request one from Amazon and associate it with cloudfront. So even after applying it I still am getting the same error message. So in combination with associating the certificate with cloudfornt I have to give it an Alternate domain name (CNAME) and then the error is resolved.
+![Screen Shot 2024-05-16 at 19 03](https://github.com/Sequence-94/awsstaticresume/assets/53806574/dfd1906a-48bb-4b26-9a87-06a89ea2e943)
+
+Result: 
+![Screen Shot 2024-05-16 at 19 04](https://github.com/Sequence-94/awsstaticresume/assets/53806574/e1872246-8474-4e94-af64-fcfafdd18115)
+
+
+
+
+
+
+
+
+
